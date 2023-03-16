@@ -1,0 +1,160 @@
+body {
+    margin: 0 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+header {
+    text-align: center;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    color: rgb(105, 105, 105);
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+#related {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    padding: 0 10px;
+    color: rgb(105, 105, 105);
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#related a {
+    text-decoration: none;
+    color: rgb(255, 0, 162);
+    padding: 0 10px;
+    font-size: 1.3em;
+}
+
+#tipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+#link a {
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    padding: 15px 15px;
+    font-size:1.1em;
+}
+
+#link a:hover {
+    background-color: rgb(232, 231, 231);
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+button {
+    margin: 1%;
+    padding: 15px 40px;
+    border-radius: 12px;
+    background-color: white;
+    border: solid 2px rgb(222, 222, 222);
+    font-size: 1.3em;
+}
+
+button:hover {
+    border: solid 5px rgba(227, 137, 220, 0.218);
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 23%;
+    padding: 1%;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+.channel {
+    display: flex;
+    align-items: center;
+}
+
+.logo-channel {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.channel p {
+    margin: 0;
+    padding:0 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.1em;
+}
+
+.channel p:hover{
+    cursor: pointer;
+}
+
+.info-channel {
+    display: flex;
+    align-items: center;
+}
+
+.info-channel p {
+    margin: 0;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.info-channel span {
+    color: rgb(166, 166, 166);
+}
+
+.info-channel span:nth-child(1):hover {
+    color: red;
+    cursor: pointer;
+}
+
+.icon {
+    background-color: rgb(218, 216, 216);
+    color: white;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
